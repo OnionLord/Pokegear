@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0272B40191979A1003227E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0272B3F191979A1003227E2 /* Foundation.framework */; };
+		C0272B42191979A1003227E2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0272B41191979A1003227E2 /* CoreGraphics.framework */; };
+		C0272B44191979A1003227E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0272B43191979A1003227E2 /* UIKit.framework */; };
+		C0272B4A191979A1003227E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0272B48191979A1003227E2 /* InfoPlist.strings */; };
+		C0272B4C191979A1003227E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0272B4B191979A1003227E2 /* main.m */; };
+		C0272B50191979A1003227E2 /* ETUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0272B4F191979A1003227E2 /* ETUAppDelegate.m */; };
+		C0272B53191979A1003227E2 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0272B51191979A1003227E2 /* Main_iPhone.storyboard */; };
+		C0272B56191979A1003227E2 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0272B54191979A1003227E2 /* Main_iPad.storyboard */; };
+		C0272B59191979A1003227E2 /* ETUMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0272B58191979A1003227E2 /* ETUMainViewController.m */; };
+		C0272B5C191979A1003227E2 /* ETUFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0272B5B191979A1003227E2 /* ETUFlipsideViewController.m */; };
+		C0272B5E191979A1003227E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0272B5D191979A1003227E2 /* Images.xcassets */; };
+		C0272B65191979A1003227E2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0272B64191979A1003227E2 /* XCTest.framework */; };
+		C0272B66191979A1003227E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0272B3F191979A1003227E2 /* Foundation.framework */; };
+		C0272B67191979A1003227E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0272B43191979A1003227E2 /* UIKit.framework */; };
+		C0272B6F191979A1003227E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0272B6D191979A1003227E2 /* InfoPlist.strings */; };
+		C0272B71191979A1003227E2 /* PokegearTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0272B70191979A1003227E2 /* PokegearTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0272B68191979A1003227E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0272B34191979A1003227E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0272B3B191979A1003227E2;
+			remoteInfo = Pokegear;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C0272B3C191979A1003227E2 /* Pokegear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokegear.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0272B3F191979A1003227E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C0272B41191979A1003227E2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C0272B43191979A1003227E2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C0272B47191979A1003227E2 /* Pokegear-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pokegear-Info.plist"; sourceTree = "<group>"; };
+		C0272B49191979A1003227E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C0272B4B191979A1003227E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0272B4D191979A1003227E2 /* Pokegear-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pokegear-Prefix.pch"; sourceTree = "<group>"; };
+		C0272B4E191979A1003227E2 /* ETUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETUAppDelegate.h; sourceTree = "<group>"; };
+		C0272B4F191979A1003227E2 /* ETUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETUAppDelegate.m; sourceTree = "<group>"; };
+		C0272B52191979A1003227E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		C0272B55191979A1003227E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		C0272B57191979A1003227E2 /* ETUMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETUMainViewController.h; sourceTree = "<group>"; };
+		C0272B58191979A1003227E2 /* ETUMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETUMainViewController.m; sourceTree = "<group>"; };
+		C0272B5A191979A1003227E2 /* ETUFlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETUFlipsideViewController.h; sourceTree = "<group>"; };
+		C0272B5B191979A1003227E2 /* ETUFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETUFlipsideViewController.m; sourceTree = "<group>"; };
+		C0272B5D191979A1003227E2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C0272B63191979A1003227E2 /* PokegearTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokegearTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0272B64191979A1003227E2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C0272B6C191979A1003227E2 /* PokegearTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PokegearTests-Info.plist"; sourceTree = "<group>"; };
+		C0272B6E191979A1003227E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C0272B70191979A1003227E2 /* PokegearTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PokegearTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0272B39191979A1003227E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0272B42191979A1003227E2 /* CoreGraphics.framework in Frameworks */,
+				C0272B44191979A1003227E2 /* UIKit.framework in Frameworks */,
+				C0272B40191979A1003227E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0272B60191979A1003227E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0272B65191979A1003227E2 /* XCTest.framework in Frameworks */,
+				C0272B67191979A1003227E2 /* UIKit.framework in Frameworks */,
+				C0272B66191979A1003227E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0272B33191979A1003227E2 = {
+			isa = PBXGroup;
+			children = (
+				C0272B45191979A1003227E2 /* Pokegear */,
+				C0272B6A191979A1003227E2 /* PokegearTests */,
+				C0272B3E191979A1003227E2 /* Frameworks */,
+				C0272B3D191979A1003227E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0272B3D191979A1003227E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0272B3C191979A1003227E2 /* Pokegear.app */,
+				C0272B63191979A1003227E2 /* PokegearTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0272B3E191979A1003227E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0272B3F191979A1003227E2 /* Foundation.framework */,
+				C0272B41191979A1003227E2 /* CoreGraphics.framework */,
+				C0272B43191979A1003227E2 /* UIKit.framework */,
+				C0272B64191979A1003227E2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0272B45191979A1003227E2 /* Pokegear */ = {
+			isa = PBXGroup;
+			children = (
+				C0272B4E191979A1003227E2 /* ETUAppDelegate.h */,
+				C0272B4F191979A1003227E2 /* ETUAppDelegate.m */,
+				C0272B51191979A1003227E2 /* Main_iPhone.storyboard */,
+				C0272B54191979A1003227E2 /* Main_iPad.storyboard */,
+				C0272B57191979A1003227E2 /* ETUMainViewController.h */,
+				C0272B58191979A1003227E2 /* ETUMainViewController.m */,
+				C0272B5A191979A1003227E2 /* ETUFlipsideViewController.h */,
+				C0272B5B191979A1003227E2 /* ETUFlipsideViewController.m */,
+				C0272B5D191979A1003227E2 /* Images.xcassets */,
+				C0272B46191979A1003227E2 /* Supporting Files */,
+			);
+			path = Pokegear;
+			sourceTree = "<group>";
+		};
+		C0272B46191979A1003227E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0272B47191979A1003227E2 /* Pokegear-Info.plist */,
+				C0272B48191979A1003227E2 /* InfoPlist.strings */,
+				C0272B4B191979A1003227E2 /* main.m */,
+				C0272B4D191979A1003227E2 /* Pokegear-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0272B6A191979A1003227E2 /* PokegearTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0272B70191979A1003227E2 /* PokegearTests.m */,
+				C0272B6B191979A1003227E2 /* Supporting Files */,
+			);
+			path = PokegearTests;
+			sourceTree = "<group>";
+		};
+		C0272B6B191979A1003227E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0272B6C191979A1003227E2 /* PokegearTests-Info.plist */,
+				C0272B6D191979A1003227E2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0272B3B191979A1003227E2 /* Pokegear */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0272B74191979A1003227E2 /* Build configuration list for PBXNativeTarget "Pokegear" */;
+			buildPhases = (
+				C0272B38191979A1003227E2 /* Sources */,
+				C0272B39191979A1003227E2 /* Frameworks */,
+				C0272B3A191979A1003227E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pokegear;
+			productName = Pokegear;
+			productReference = C0272B3C191979A1003227E2 /* Pokegear.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0272B62191979A1003227E2 /* PokegearTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0272B77191979A1003227E2 /* Build configuration list for PBXNativeTarget "PokegearTests" */;
+			buildPhases = (
+				C0272B5F191979A1003227E2 /* Sources */,
+				C0272B60191979A1003227E2 /* Frameworks */,
+				C0272B61191979A1003227E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0272B69191979A1003227E2 /* PBXTargetDependency */,
+			);
+			name = PokegearTests;
+			productName = PokegearTests;
+			productReference = C0272B63191979A1003227E2 /* PokegearTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0272B34191979A1003227E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ETU;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = evinugur;
+				TargetAttributes = {
+					C0272B62191979A1003227E2 = {
+						TestTargetID = C0272B3B191979A1003227E2;
+					};
+				};
+			};
+			buildConfigurationList = C0272B37191979A1003227E2 /* Build configuration list for PBXProject "Pokegear" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0272B33191979A1003227E2;
+			productRefGroup = C0272B3D191979A1003227E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0272B3B191979A1003227E2 /* Pokegear */,
+				C0272B62191979A1003227E2 /* PokegearTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0272B3A191979A1003227E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0272B56191979A1003227E2 /* Main_iPad.storyboard in Resources */,
+				C0272B5E191979A1003227E2 /* Images.xcassets in Resources */,
+				C0272B53191979A1003227E2 /* Main_iPhone.storyboard in Resources */,
+				C0272B4A191979A1003227E2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0272B61191979A1003227E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0272B6F191979A1003227E2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0272B38191979A1003227E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0272B59191979A1003227E2 /* ETUMainViewController.m in Sources */,
+				C0272B4C191979A1003227E2 /* main.m in Sources */,
+				C0272B50191979A1003227E2 /* ETUAppDelegate.m in Sources */,
+				C0272B5C191979A1003227E2 /* ETUFlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0272B5F191979A1003227E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0272B71191979A1003227E2 /* PokegearTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0272B69191979A1003227E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0272B3B191979A1003227E2 /* Pokegear */;
+			targetProxy = C0272B68191979A1003227E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0272B48191979A1003227E2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0272B49191979A1003227E2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C0272B51191979A1003227E2 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0272B52191979A1003227E2 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		C0272B54191979A1003227E2 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0272B55191979A1003227E2 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		C0272B6D191979A1003227E2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0272B6E191979A1003227E2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0272B72191979A1003227E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0272B73191979A1003227E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0272B75191979A1003227E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pokegear/Pokegear-Prefix.pch";
+				INFOPLIST_FILE = "Pokegear/Pokegear-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C0272B76191979A1003227E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pokegear/Pokegear-Prefix.pch";
+				INFOPLIST_FILE = "Pokegear/Pokegear-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C0272B78191979A1003227E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pokegear.app/Pokegear";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pokegear/Pokegear-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PokegearTests/PokegearTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C0272B79191979A1003227E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pokegear.app/Pokegear";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pokegear/Pokegear-Prefix.pch";
+				INFOPLIST_FILE = "PokegearTests/PokegearTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0272B37191979A1003227E2 /* Build configuration list for PBXProject "Pokegear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0272B72191979A1003227E2 /* Debug */,
+				C0272B73191979A1003227E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0272B74191979A1003227E2 /* Build configuration list for PBXNativeTarget "Pokegear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0272B75191979A1003227E2 /* Debug */,
+				C0272B76191979A1003227E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C0272B77191979A1003227E2 /* Build configuration list for PBXNativeTarget "PokegearTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0272B78191979A1003227E2 /* Debug */,
+				C0272B79191979A1003227E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0272B34191979A1003227E2 /* Project object */;
+}
