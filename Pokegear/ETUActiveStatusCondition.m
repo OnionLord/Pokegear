@@ -37,4 +37,8 @@
     self.paralyzeTurn = -1;
 }
 
+- (BOOL) hasNoConditions {
+    return self.rotationalStatus == kNone && !(self.poisoned || self.burned);
+}
+
 @end

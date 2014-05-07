@@ -26,4 +26,9 @@ typedef enum {
 - (void) clearStatusConditions;
 - (void) paralyzeOn :(int) turn;
 - (void) paralyzeOff;
+
+
+// will show a warning when retreating about how conditions are wiped
+- (BOOL) hasNoConditions;
+
 @end
