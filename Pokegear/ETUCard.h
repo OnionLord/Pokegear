@@ -12,4 +12,5 @@
 @property int damage;
 @property NSString *name;
 - (id) init;
+- (void) reset;
 @end

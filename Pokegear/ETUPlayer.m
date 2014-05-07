@@ -21,6 +21,14 @@
     }
     return self;
 }
+
+- (void) reset {
+    [self.activeCondition clearStatusConditions];
+    [self.active reset];
+    for (int i = 0; i < [self.bench count]; i++)
+        [(ETUCard*)self.bench[i] reset];
+}
+
 - (void) switchBench:(int)firstPokemonIndex with:(int)secondPokemonIndex {
     ETUCard* firstCard = self.bench[firstPokemonIndex];
     self.bench[firstPokemonIndex] = self.bench[secondPokemonIndex];

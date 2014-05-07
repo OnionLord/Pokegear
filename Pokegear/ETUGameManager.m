@@ -13,12 +13,17 @@
     if (self) {
         self.one = [[ETUPlayer alloc] init];
         self.two = [[ETUPlayer alloc] init];
-        self.turnState = true;
-        self.turnCount = 1;
-
+        [self reset];
     }
   // TODO  [self changeTurns:false];
     return self;
+}
+
+- (void) reset {
+    [self.one reset];
+    [self.two reset];
+    self.turnState = true;
+    self.turnCount = 1;
 }
 
 -(void) changeTurns:(BOOL)attackOrPass attack:(int)damage {
@@ -85,6 +90,18 @@
     self.turnState = !self.turnState;
     self.turnCount++;
 
+}
+-(void) finishWithTie {
+    self.one.tieCount++;
+    self.two.tieCount++;
+    [self reset];
+}
+-(void) finish:(ETUPlayer *)winner {
+    ETUPlayer *a = winner == self.one ? self.one : self.two;
+    ETUPlayer *b = a == self.one ? self.two : self.one;
+    a.winCount++;
+    b.loseCount--;
+    [self reset];
 }
 
 @end

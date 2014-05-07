@@ -19,6 +19,7 @@
 @property int tieCount;
 
 - (id) init;
+- (void) reset;
 - (void) switchBench:(int)firstPokemonIndex with:(int)secondPokemonIndex;
 - (void) switchActiveWith: (int)bench;
 - (void) damageEveryCard: (int) damage;

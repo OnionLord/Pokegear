@@ -21,5 +21,7 @@
 - (id) init;
 
 - (void) changeTurns :(BOOL)attackOrPass attack:(int)damage;
-
+- (void) reset;
+- (void) finish :(ETUPlayer*)winner;
+- (void) finishWithTie;
 @end

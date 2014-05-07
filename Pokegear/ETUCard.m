@@ -12,9 +12,12 @@
 - (id) init {
     self = [super init];
     if (self) {
-        self.damage = 0;
-        self.name = nil;
+        [self reset];
     }
     return self;
+}
+-(void) reset {
+    self.damage = 0;
+    self.name = @"";
 }
 @end
