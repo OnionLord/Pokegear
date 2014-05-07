@@ -14,6 +14,7 @@
 @property int poisonDamage;
 @property int burnDamage;
 @property int confuseDamage;
+@property int paralyzeTurn;
 typedef enum {
     kNone,
     kConfused,
@@ -23,4 +24,6 @@ typedef enum {
 @property RotationalStatus rotationalStatus;
 - (id) init;
 - (void) clearStatusConditions;
+- (void) paralyzeOn :(int) turn;
+- (void) paralyzeOff;
 @end

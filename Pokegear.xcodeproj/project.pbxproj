@@ -24,6 +24,8 @@
 		C0272B6F191979A1003227E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0272B6D191979A1003227E2 /* InfoPlist.strings */; };
 		C0272B71191979A1003227E2 /* PokegearTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0272B70191979A1003227E2 /* PokegearTests.m */; };
 		C0272B7D19197AB0003227E2 /* cardback.png in Resources */ = {isa = PBXBuildFile; fileRef = C0272B7C19197AB0003227E2 /* cardback.png */; };
+		C09E13961919AB5F004CC8CD /* ETUUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C09E13951919AB5F004CC8CD /* ETUUtil.m */; };
+		C09E13991919AC1D004CC8CD /* ETUGameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C09E13981919AC1D004CC8CD /* ETUGameManager.m */; };
 		C0FE237C19198CB200C7805D /* ETUCard.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FE237B19198CB200C7805D /* ETUCard.m */; };
 		C0FE238219198F8500C7805D /* ETUPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FE238119198F8500C7805D /* ETUPlayer.m */; };
 		C0FE2385191990E600C7805D /* ETUActiveStatusCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FE2384191990E600C7805D /* ETUActiveStatusCondition.m */; };
@@ -63,6 +65,10 @@
 		C0272B6E191979A1003227E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C0272B70191979A1003227E2 /* PokegearTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PokegearTests.m; sourceTree = "<group>"; };
 		C0272B7C19197AB0003227E2 /* cardback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cardback.png; path = ../../Desktop/cardback.png; sourceTree = "<group>"; };
+		C09E13941919AB5F004CC8CD /* ETUUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETUUtil.h; sourceTree = "<group>"; };
+		C09E13951919AB5F004CC8CD /* ETUUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETUUtil.m; sourceTree = "<group>"; };
+		C09E13971919AC1D004CC8CD /* ETUGameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETUGameManager.h; sourceTree = "<group>"; };
+		C09E13981919AC1D004CC8CD /* ETUGameManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETUGameManager.m; sourceTree = "<group>"; };
 		C0FE237A19198CB200C7805D /* ETUCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETUCard.h; sourceTree = "<group>"; };
 		C0FE237B19198CB200C7805D /* ETUCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETUCard.m; sourceTree = "<group>"; };
 		C0FE238019198F8500C7805D /* ETUPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETUPlayer.h; sourceTree = "<group>"; };
@@ -133,7 +139,11 @@
 				C0FE2383191990E600C7805D /* ETUActiveStatusCondition.h */,
 				C0FE2384191990E600C7805D /* ETUActiveStatusCondition.m */,
 				C0FE238019198F8500C7805D /* ETUPlayer.h */,
+				C09E13971919AC1D004CC8CD /* ETUGameManager.h */,
+				C09E13981919AC1D004CC8CD /* ETUGameManager.m */,
 				C0FE238119198F8500C7805D /* ETUPlayer.m */,
+				C09E13941919AB5F004CC8CD /* ETUUtil.h */,
+				C09E13951919AB5F004CC8CD /* ETUUtil.m */,
 				C0FE237A19198CB200C7805D /* ETUCard.h */,
 				C0FE237B19198CB200C7805D /* ETUCard.m */,
 				C0272B51191979A1003227E2 /* Main_iPhone.storyboard */,
@@ -278,10 +288,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C09E13961919AB5F004CC8CD /* ETUUtil.m in Sources */,
 				C0FE237C19198CB200C7805D /* ETUCard.m in Sources */,
 				C0FE238219198F8500C7805D /* ETUPlayer.m in Sources */,
 				C0FE2385191990E600C7805D /* ETUActiveStatusCondition.m in Sources */,
 				C0272B59191979A1003227E2 /* ETUMainViewController.m in Sources */,
+				C09E13991919AC1D004CC8CD /* ETUGameManager.m in Sources */,
 				C0272B4C191979A1003227E2 /* main.m in Sources */,
 				C0272B50191979A1003227E2 /* ETUAppDelegate.m in Sources */,
 				C0272B5C191979A1003227E2 /* ETUFlipsideViewController.m in Sources */,

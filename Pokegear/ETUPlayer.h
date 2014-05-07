@@ -21,4 +21,6 @@
 - (id) init;
 - (void) switchBench:(int)firstPokemonIndex with:(int)secondPokemonIndex;
 - (void) switchActiveWith: (int)bench;
+- (void) damageEveryCard: (int) damage;
+- (void) healEveryCard: (int) hp;
 @end

@@ -24,5 +24,17 @@
     self.rotationalStatus = kNone;
     self.poisoned = false;
     self.burned = false;
+    self.paralyzeTurn = -1;
 }
+
+- (void) paralyzeOn:(int)turn {
+    self.rotationalStatus = kParalyzed;
+    self.paralyzeTurn = turn;
+}
+
+- (void) paralyzeOff {
+    self.rotationalStatus = kNone;
+    self.paralyzeTurn = -1;
+}
+
 @end

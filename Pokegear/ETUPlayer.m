@@ -34,4 +34,21 @@
     self.active = benched;
 }
 
+- (void) damageEveryCard:(int)damage {
+    self.active.damage += damage;
+    for (int i = 0; i < [self.bench count]; i++)
+        ((ETUCard*)self.bench[i]).damage += damage;
+}
+
+- (void) healEveryCard:(int)hp {
+    ETUCard* card = self.active;
+    int delta = card.damage - hp;
+    card.damage = delta < 0 ? 0 : delta;
+    for (int i = 0; i < [self.bench count]; i++) {
+        card = self.bench[i];
+        delta = card.damage - hp;
+        card.damage = delta < 0 ? 0 : delta;
+    }
+}
+
 @end
