@@ -31,6 +31,10 @@
 
 - (void) switchBench:(int)firstPokemonIndex with:(int)secondPokemonIndex {
     ETUCard* firstCard = self.bench[firstPokemonIndex];
+    RotationalStatus rs = self.activeCondition.rotationalStatus;
+    if (rs == kParalyzed || rs == kAsleep) {
+        NSLog(@"This isn't allowed during a normal retreat...");
+    }
     self.bench[firstPokemonIndex] = self.bench[secondPokemonIndex];
     self.bench[secondPokemonIndex] = firstCard;
 }
